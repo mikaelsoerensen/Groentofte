@@ -1,40 +1,282 @@
-<!-- cpanel - site_templates/countdown_fresh/index.html.tt Copyright(c) 2016 cPanel, Inc.
-                                                            All rights Reserved.
-copyright@cpanel.net                                           http://cpanel.net
-This code is subject to the cPanel license. Unauthorized copying is prohibited -->
-
 <!DOCTYPE html>
-<html>
+<html lang = "da-DK">
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <meta name="description" content="Grøntofte">
+    <title>Grøntofte ..</title>
 
-    <title>Grøntofte</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
-    <link rel="icon" href="/assets/images/favicon.ico" />
-    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
-
-    <link href="assets/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
-
-    <!-- Page stylesheet -->
-    <link id="css-core" rel="stylesheet" type="text/css" href="assets/core.css" />
-    <link id="css-cpanel" rel="stylesheet" type="text/css" href="assets/cpanel.css" />
-
-    <script src="assets/config.js"></script>
 </head>
 
 <body>
-    <!-- App root -->
-    <div id="mainContainer">
-        <noscript class="noscript">Your browser has javascript turned off.  Please reload the site with javascript enabled to view the site.</noscript>
 
-        <div class="spinner"><div class="spinner__inner"></div></div>
+  <header>
+
+    <div class="row">
+      <!--<div class="logo">
+        <img src="img/logo.png">
+      </div>-->
+      <ul class="main-nav">
+
+        <li><a href="#nyhed">Nyhedsbreve</a></li>
+        <li><a href="#history">Billeder</a></li>
+        <li><a href="#mobile">Plantegning</a></li>
+        <li><a href="">Kontakt</a></li>
+
+      </ul>
+
     </div>
 
-    <script id="js-vendor" src="dist/dll.vendor.js"></script>
-    <script id="js-main" src="dist/main.js"></script>
+    <div class="hero">
+      <h1>Velkommen til Grøntofte</h1>
+      <br/><h2>En bæredygtig lommehave i midten af Gentofte</h2>
+      <!--
+      <div class="button-awesome">
+        <a href="" class="btn">Show more</a>
+        <a href="" class="btn">Show other</a>
+      </div> -->
+    </div>
 
-    
+  </header>
+
+  <section class="features" id="nyhed">
+
+    <h3 class="text-center"> Kort om Grøntofte?</h3>
+    <p class="copy">
+      Grøntofte er en lommehave på Bregnevej i midten af Gentofte, tæt på Gentofte bymidte.
+      Grøntofte er en tidligere kommunal vejmandsplads der har stået forladt i mange år, og som nu af frivillige kræfter
+      forvandles til en grøn og bæredygtig lommehave. <br/>
+      Grøntofte er startet op august 2017, efter en vellykket nabohøring og vi har nu adgang til de 340 kvm kommunal grund,
+      hvor vi som borgere kan sætte vores grønne fodtryk, samt styrke lokalsamfundet.
+    </p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h4><a target="_blank" href="docs/Grøntofte_Nyhedsbrev_1.pdf"><i class="fa fa-file-text-o"></i></a>
+          Nyhedsbrev #1</h4>
+          <p class="arranging">Den 12. august mødes borgere og kommune for første gang på Bregnevej 5B, til en samlet nabohøring og dialogmøde, hvor der blev vist en positiv interesse for Grøntofte.
+          <br/>Læs mere i nyhedsbrevet om opstarten af Grøntofte og de første projekter og tanker.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <h4><a target="_blank" href="docs/Grøntofte_Nyhedsbrev_2.pdf"><i class="fa fa-file-text-o"></i></a>
+          Nyhedsbrev #2</h4>
+          <p class="arranging">Grøntofte har haft tid til projekter og nye samarbejder. Læs mere om samarbejde med naboer, med frøbanken på Ordrup bibliotek, om kaffegrums fra Emmerys
+            samt donneret topjord til højbede fra andet sted i kommunen.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <h4><a target="_blank" href="docs/Grøntofte_Nyhedsbrev_3.pdf"><i class="fa fa-file-text-o"></i></a>
+          Nyhedsbrev #3</h4>
+          <p class="arranging">.. kommer snart :)
+          </p>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="mobile" id="mobile">
+    <h3 class="text-center">Plantegning over Grøntofte</h3>
+
+    <div class="container">
+      <div class="row">
+          <div class="col-md-6">
+            <div class="pic">
+              <img src="img/tegning.png">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="works-step">
+              <div>1</div>
+              <p>
+                Areal på 340 kvm. på asfalt med bygninger. Fra syd mod nord: Én carport, én bygning med tidl. bad/køkken/toilet, én garage.
+              </p>
+              <div>2</div>
+              <p>
+                Der står i alt 9 højbede og der er plads til kompostering til venstre ved indgangen. Yderligere sættes kapilærkasser til bl.a. tomater.
+              </p>
+              <div>3</div>
+              <p>
+                bla bla lba lba lba lba lbalbl balbl lba
+                bla bla lba lba lba lba lbalbl balbl lba
+                bla bla lba lba lba lba lbalbl balbl lba
+              </p>
+              <a href=""><img src="img/tegning.png"></a>
+              <a href=""><img src="img/tegning.png"></a>
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <section class="history" id="history">
+    <h3 class="text-center">Billeder fra Grøntofte</h3>
+    <ul class="history-showcase clearfix">
+      <li>
+        <figure class="history-photo">
+            <img src="img/nabohøring1.jpg">
+        </figure>
+      </li>
+      <li>
+        <figure class="history-photo">
+            <img src="img/pic.jpg">
+        </figure>
+      </li>
+      <li>
+        <figure class="history-photo">
+            <img src="img/miljøpris1.jpg">
+        </figure>
+      </li>
+      <li>
+        <figure class="history-photo">
+            <img src="img/miljøpris3.jpg">
+        </figure>
+      </li>
+    </ul>
+  </section>
+
+  <section class="history">
+    <h3 class="text-center">Billeder fra Miljøpris overrækkelsen</h3>
+    <ul class="history-showcase clearfix">
+      <li>
+        <figure class="history-photo">
+            <img src="img/miljøpris4.jpg">
+        </figure>
+      </li>
+      <li>
+        <figure class="history-photo">
+            <img src="img/miljøpris2.jpg">
+        </figure>
+      </li>
+      <li>
+        <figure class="history-photo">
+            <img src="img/miljøpris1.jpg">
+        </figure>
+      </li>
+      <li>
+        <figure class="history-photo">
+            <img src="img/miljøpris3.jpg">
+        </figure>
+      </li>
+    </ul>
+  </section>
+
+  <section class="cities">
+
+    <h3 class="text-center">We are in these cities</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="img/history1.jpg">
+            <h4>Grøntofte</h4>
+            <p><i class="fa fa-cog"></i> 1000+ happy customers</p>
+            <p><i class="fa fa-cog"></i> 1000+ happy customers</p>
+            <p><i class="fa fa-cog"></i> 1000+ happy customers</p>
+        </div>
+        <div class="col-md-3">
+          <img src="img/history2.jpg">
+            <h4>Grøntofte</h4>
+            <p><i class="fa fa-cog"></i> 1000+ happy customers</p>
+            <p><i class="fa fa-cog"></i> 1000+ happy customers</p>
+            <p><i class="fa fa-cog"></i> 1000+ happy customers</p>
+        </div>
+        <div class="col-md-3">
+          <img src="img/history1.jpg">
+            <h4>Grøntofte</h4>
+            <p><i class="fa fa-cog"></i> 1000+ happy customers</p>
+            <p><i class="fa fa-cog"></i> 1000+ happy customers</p>
+            <p><i class="fa fa-cog"></i> 1000+ happy customers</p>
+        </div>
+        <div class="col-md-3">
+          <img src="img/history2.jpg">
+            <h4>Grøntofte</h4>
+            <p><i class="fa fa-cog"></i> 1000+ happy customers</p>
+            <p><i class="fa fa-cog"></i> 1000+ happy customers</p>
+            <p><i class="fa fa-cog"></i> 1000+ happy customers</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="testimonials">
+    <h3 class="text-center">Her er en ny section!!!</h3>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+
+            <p>
+              bla blab bal blaba lbalb bl lasdl lasdl
+              bla blab bal blaba lbalb bl lasdl lasdl
+              bla blab bal blaba lbalb bl lasdl lasdl
+              bla blab bal blaba lbalb bl lasdl lasdl
+              bla blab bal blaba lbalb bl lasdl lasdl
+              bla blab bal blaba lbalb bl lasdl lasdl
+            </p>
+            <cite><img src="img/logo.png"> Grøntofte logo</cite>
+
+        </div>
+        <div class="col-md-4">
+
+            <p>
+              bla blab bal blaba lbalb bl lasdl lasdl
+              bla blab bal blaba lbalb bl lasdl lasdl
+              bla blab bal blaba lbalb bl lasdl lasdl
+              bla blab bal blaba lbalb bl lasdl lasdl
+              bla blab bal blaba lbalb bl lasdl lasdl
+              bla blab bal blaba lbalb bl lasdl lasdl
+            </p>
+            <cite><img src="img/tegning.png"> Plantegning</cite>
+
+        </div>
+        <div class="col-md-4">
+            <p>
+              bla blab bal blaba lbalb bl lasdl lasdl
+              bla blab bal blaba lbalb bl lasdl lasdl
+              bla blab bal blaba lbalb bl lasdl lasdl
+              bla blab bal blaba lbalb bl lasdl lasdl
+              bla blab bal blaba lbalb bl lasdl lasdl
+              bla blab bal blaba lbalb bl lasdl lasdl
+            </p>
+            <cite><img src="img/history2.jpg"> Miljø pris</cite>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="form">
+
+    <div class="container">
+      <h3 class="text-center">WE ARE HAPPY TO HEAR FROM YOU</h3>
+        <div class="row gap">
+          <div class="col-md-4">
+            <input type="text" placeholder="Username" class="form-control"><br/>
+            <input type="email" placeholder="Email" class="form-control"><br/>
+            <input type="password" placeholder="Password" class="form-control"><br/>
+          </div>
+          <div class="col-md-8">
+            <textarea class="form-control" rows="8" placeholder="Comments .."></textarea>
+            <button class="btn btn-block">Submit</button>
+          </div>
+        </div>
+
+    </div>
+
+
+  </section>
+
 </body>
 </html>

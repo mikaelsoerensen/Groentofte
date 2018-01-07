@@ -1,0 +1,269 @@
+*
+{
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+
+  font-family: tahoma;
+}
+
+.row {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.hero {
+  text-align: center;
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+header {
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/pic.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+.main-nav {
+  float:right;
+  list-style: none;
+  margin-top: 40px;
+  margin-right: 100px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.main-nav li a {
+  color: white;
+  text-decoration: underline;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.main-nav li a:hover {
+    color:lightgreen;
+    transition: all 0.5s ease-in;
+}
+
+.logo img {
+  height: 100px;
+  float: left;
+  margin-top: 30px;
+}
+
+.btn {
+  border: 1px solid lightgreen;
+  padding: 10px 30px;
+  color: lightgreen;
+  text-decoration: none;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+
+.button-awesome {
+  margin-top: 40px;
+}
+
+.btn:hover {
+  background-color: lightgreen;
+  color: green;
+  transition: all 0.5s ease-in;
+}
+
+.copy {
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 30px ;
+}
+
+h3:after {
+  width: 150px;
+  height: 2px;
+  background-color: green;
+  display: block;
+  content: " ";
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.features h3 {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.arraging {
+    text-align: justify;
+}
+
+.features i {
+  color: green;
+}
+
+.container i {
+  font-size: 20px;
+  color: green;
+  margin-right: 5%;
+}
+
+.features h4 {
+  margin-right: 20px;
+}
+
+.history-showcase {
+  list-style: none;
+  width: 100%;
+
+}
+
+.history-showcase li {
+  display: block;
+  width: 25%;
+  float: left;
+}
+
+.history-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.history-photo img {
+  padding: 30px;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: all 0.5s;
+}
+
+.history-photo img:hover {
+  transform: scale(1.25);
+}
+
+.history h3 {
+  margin-bottom: 20px;
+}
+
+.history {
+  margin-top: 40px;
+}
+
+.pic img {
+  width: 400px;
+  margin-left: 20%;
+  margin-top: 50px;
+}
+
+.works-step {
+  margin-top: 50px;
+}
+
+.works-step div {
+  border: 1px solid lightgreen;
+  display: inline-block;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.works-step img {
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.clearfix {
+  zoom:1;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  content: ".";
+  height: 0;
+  display: block;
+  clear: both;
+}
+
+.mobile {
+  margin-top: 50px;
+}
+
+.cities {
+  margin-top: 100px;
+}
+
+.cities i {
+  margin-left: 0%;
+}
+
+.cities img {
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.cities i {
+  color: green;
+}
+
+.testimonials {
+  margin-top: 80px;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../img/pic.jpg);
+  background-size: cover;
+  height: 90vh;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  color: white;
+  background-attachment: fixed;
+}
+
+.testimonials p {
+    color: white;
+    line-height: 25p;
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.testimonials cite img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+
+}
+
+.btn-block {
+  background-color: lightgreen;
+  color: white;
+  margin-top: 20px;
+}
+
+.form {
+  margin-top: 40px;
+}
+
+.gap {
+  margin-top: 60px;
+}
